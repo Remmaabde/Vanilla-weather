@@ -1,0 +1,65 @@
+body {
+  background: #f9f7fe;
+}
+div.container {
+  display: block;
+  margin: 0 auto;
+  background: #ffffff;
+  width: 80%;
+  top: 30px;
+  height: 50%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+input.search {
+  width: 57%;
+  border-radius: 5px;
+  border: none;
+  margin-left: 3%;
+  height: 40%;
+  background: #ede9e9;
+  padding: 10px;
+  margin: 10px;
+}
+.search-form-button {
+  padding: 10px;
+  border-radius: 3px;
+  background: #885df1;
+  color: white;
+  border: none;
+}
+img.weather {
+  width: 20px;
+  height: 20px;
+}
+.weather-app-icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 30%;
+}
+span.humidity {
+  color: #a9a6b3;
+}
+span.wind {
+  color: #a9a6b3;
+}
+.percent {
+  color: #c71892;
+}
+span.day {
+  color: #a9a6b3;
+}
+img.weather {
+  margin-left: 67%;
+  width: 20%;
+  height: 20%;
+  margin-top: -10%;
+}
+h2 {
+  margin-left: 90%;
+  margin-top: -10%;
+  font-size: 47px;
+}
+div.footer {
+  margin-left: 2%;
+}

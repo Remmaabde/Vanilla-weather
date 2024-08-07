@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Images/vanilla.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Weather-app</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="search-form" id="search-form">
+            <input type="search" class="search" id="search-form-input">
+            <input type="submit" value="Search" class="search-form-button" />
+        </form>
+
+        <div class="main">
+            <h1 class="city" id="city"></h1>
+            <span class="day"><span id="time">Monday,</span>
+                <span id="description">light rain</span></span>
+            <br>
+            <span class="humidity">Humidity: <span class="percent" id="humidity">,</span>
+                <span class="wind">Wind <span id="wind-speed">56.6km/h</span></span></span>
+
+            <div class="right">
+                <div id="icon"></div>
+                <h2 class="weather-app-temperature" id="temperature">&deg;C</h2>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>This project is coded by <a href="github.com/remmaabde">Reem Abdella
+                    Open-sourced <a href="github.com/remmaabde">on Github</a> and
+                    hosted <a href="">Netlify</a>
+                </a></p>
+        </div>
+    </div>
+    <script src="vanilla.js"></script>
+</body>
+
+</html>
